@@ -1,0 +1,77 @@
+2024-01-14 11:54:57,611 INFO s.ActiTimeStepDefinition [main] Launch the application
+2024-01-14 11:55:15,833 INFO s.ActiTimeStepDefinition [main] The Application has launched successfully
+2024-01-14 11:55:15,869 INFO s.ActiTimeStepDefinition [main] Navigate to the url of the application
+2024-01-14 11:55:16,192 ERROR s.ActiTimeStepDefinition [main] There is an error occurance during the execution of Navigate_to_the_url_of_the_application org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f489b90dd4ad15f63511a82a6af4ea9, get {url=http://localhost/login.do}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50223}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50223/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f489b90dd4ad15f63511a82a6af4ea9
+2024-01-14 11:55:16,319 INFO s.ActiTimeStepDefinition [main] Login using valid credentials
+2024-01-14 11:55:16,333 ERROR s.ActiTimeStepDefinition [main] There is an error occurance during the execution of Login_using_valid_credentials org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f489b90dd4ad15f63511a82a6af4ea9, findElement {using=css selector, value=#username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50223}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50223/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f489b90dd4ad15f63511a82a6af4ea9
+2024-01-14 11:55:16,336 INFO s.ActiTimeStepDefinition [main] the Home page should display
+2024-01-14 11:55:16,364 INFO s.ActiTimeStepDefinition [main] Perform logout action
+2024-01-14 11:55:16,374 ERROR s.ActiTimeStepDefinition [main] There is an error occurance during the execution of Perform_logout_action org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f489b90dd4ad15f63511a82a6af4ea9, findElement {using=link text, value=Logout}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50223}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50223/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f489b90dd4ad15f63511a82a6af4ea9
+2024-01-14 11:55:16,376 INFO s.ActiTimeStepDefinition [main] the login page should display
+2024-01-14 11:55:16,386 ERROR s.ActiTimeStepDefinition [main] There is an error occurance during the execution of the_login_page_should_display org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f489b90dd4ad15f63511a82a6af4ea9, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50223}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50223/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f489b90dd4ad15f63511a82a6af4ea9
+2024-01-14 11:55:16,389 INFO s.ActiTimeStepDefinition [main] Close Application Browser
+2024-01-14 11:55:16,400 ERROR s.ActiTimeStepDefinition [main] There is an error occurance during the execution of Close_Application_Browser org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=120.0.6099.217)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f489b90dd4ad15f63511a82a6af4ea9, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50223}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50223/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f489b90dd4ad15f63511a82a6af4ea9
+2024-01-14 11:55:16,425 INFO s.ActiTimeStepDefinition [main] Launch the application
+2024-01-14 11:55:20,726 INFO s.ActiTimeStepDefinition [main] The Application has launched successfully
+2024-01-14 11:55:20,730 INFO s.ActiTimeStepDefinition [main] Navigate to the url of the application
+2024-01-14 11:55:40,507 INFO s.ActiTimeStepDefinition [main] Navigate to the url of the application has performed successfully
+2024-01-14 11:55:40,511 INFO s.ActiTimeStepDefinition [main] Login using valid credentials
+2024-01-14 11:55:47,082 INFO s.ActiTimeStepDefinition [main] Login using valid credentials by providing valid credentails
+2024-01-14 11:55:47,096 INFO s.ActiTimeStepDefinition [main] the Home page should display
+2024-01-14 11:55:51,646 INFO s.ActiTimeStepDefinition [main] The Validation of Display of Home Page has matched successfulyy
+2024-01-14 11:55:51,652 INFO s.ActiTimeStepDefinition [main] minimize the flyout Window
+2024-01-14 11:55:53,858 INFO s.ActiTimeStepDefinition [main] minimize the flyout Window has performed successfully
+2024-01-14 11:55:53,867 INFO s.ActiTimeStepDefinition [main] Create an User
+2024-01-14 11:56:32,646 INFO s.ActiTimeStepDefinition [main] Create an User action has performed successfully
+2024-01-14 11:56:32,652 INFO s.ActiTimeStepDefinition [main] User should create successfully
+2024-01-14 11:56:33,006 INFO s.ActiTimeStepDefinition [main] Validation of User Creation has performed successfully 
+2024-01-14 11:56:33,011 INFO s.ActiTimeStepDefinition [main] delete the user
+2024-01-14 11:56:39,490 INFO s.ActiTimeStepDefinition [main] delete the user step has performed successfully
+2024-01-14 11:56:39,493 INFO s.ActiTimeStepDefinition [main] the user should delete
+2024-01-14 11:56:39,511 INFO s.ActiTimeStepDefinition [main] the user should delete, action has performed successfully
+2024-01-14 11:56:39,514 INFO s.ActiTimeStepDefinition [main] Perform logout action
+2024-01-14 11:56:42,051 INFO s.ActiTimeStepDefinition [main] Performing logout action has done successfully
+2024-01-14 11:56:42,055 INFO s.ActiTimeStepDefinition [main] the login page should display
+2024-01-14 11:56:44,097 INFO s.ActiTimeStepDefinition [main] Validation of login page display
+2024-01-14 11:56:44,101 INFO s.ActiTimeStepDefinition [main] Close Application Browser
+2024-01-14 11:56:44,316 INFO s.ActiTimeStepDefinition [main] Close Application has done succesfully

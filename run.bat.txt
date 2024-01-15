@@ -1,0 +1,2 @@
+cd H:\AutomationWorkSpace\ActitimeFinalFramework
+mvn clean install
